@@ -1,0 +1,19 @@
+# Task Script (task1_script.py)
+
+def execute_task1():
+    try:
+        print("Task 1: Initiating step 1")
+        input("Press Enter to proceed...")  # Await user confirmation
+        # Insert your code for step 1 here
+        print("Task 1: Step 1 completed")
+        
+        print("Task 1: Initiating step 2")
+        input("Press Enter to proceed...")  # Await user confirmation
+        # Insert your code for step 2 here
+        print("Task 1: Step 2 completed")
+        
+    except Exception as e:
+        print(f"Task 1: Encountered an error during execution: {str(e)}")
+
+if __name__ == "__main__":
+    execute_task1()
